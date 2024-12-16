@@ -1,0 +1,78 @@
+body {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.subkategori {
+    margin-top: 30px;
+    border-radius: 50px;
+}
+   
+
+.bi {
+    margin-top: 30px;
+}
+
+.subkategori .img {
+    margin: 30px;
+    padding: 30px;
+}
+
+
+
+.card-body .btn  {
+    background-color: #ffff;
+    border-color: #446084;
+    color : #446084;
+    border: 2px solid;
+    padding: 0 1.2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 0px;
+
+}
+
+.new .container {
+   text-align: center;
+   background-color: blueviolet;
+   
+   
+}
+
+.ket {
+    margin-top: 30px;
+    margin-bottom: 30px; /* Menambahkan margin top 30px */
+  }
+  .ket i {
+    font-size: 30px; /* Ukuran ikon */
+    color: #808080; /* Warna abu-abu untuk ikon */
+  }
+  .ket .col {
+    font-size: 20px; /* Ukuran teks untuk kata-kata */
+    color: #808080; /* Warna abu-abu untuk teks */
+    margin-top: 10px; /* Memberikan sedikit jarak atas untuk teks */
+    font-weight: bold;
+}
+
+.col-auto img {
+    width: 90px;
+    height: 80px;
+    transition: transform 0.3s ease; /* Menambahkan transisi untuk efek hover */
+  }
+
+  .col-auto h4 {
+    font-size: 18px;
+    transition: transform 0.3s ease; /* Menambahkan transisi untuk teks */
+  }
+
+  .col-auto:hover img {
+    transform: scale(1.2); /* Membuat gambar lebih besar saat hover */
+  }
+
+  .col-auto:hover h4 {
+    transform: scale(1.2); /* Membuat teks lebih besar saat hover */
+  }
+
+

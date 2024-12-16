@@ -1,0 +1,10 @@
+body {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.step .navbar-nav {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}

@@ -1,0 +1,53 @@
+body {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.card {
+    margin: 20px;
+}
+
+.card-body .btn  {
+    background-color: #ffff;
+    border-color: #446084;
+    color : #446084;
+    border: 2px solid;
+    padding: 0 1.2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-weight: bolder;
+    text-align: center;
+    border-radius: 0px;
+
+}
+
+.image-container {
+    position: relative;
+  }
+
+  /* Gambar produk */
+  .card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  /* Quickview button */
+  .quickview {
+    position: absolute;
+    bottom: 0; /* Letakkan di paling bawah */
+    left: 0;
+    width: 100%; /* Lebar tombol sesuai lebar gambar */
+    background-color: rgba(60, 60, 95, 0.7); /* Latar biru transparan */
+    color: white;
+    padding: 10px 0; /* Memberikan jarak atas dan bawah pada tombol */
+    text-align: center; /* Agar teks terpusat */
+    font-size: 16px;
+    display: none; /* Sembunyikan quickview pada awalnya */
+    cursor: pointer;
+  }
+
+  /* Menampilkan quickview ketika gambar di-hover */
+  .image-container:hover .quickview {
+    display: block; /* Tampilkan quickview saat hover */
+  }
